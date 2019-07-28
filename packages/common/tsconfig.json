@@ -17,6 +17,7 @@
         "resolveJsonModule": true,
         "experimentalDecorators": true,
         "strictPropertyInitialization": false,
+        "suppressImplicitAnyIndexErrors": true,
         "declaration": true,
         "jsx": "react"
     },

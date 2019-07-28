@@ -17,7 +17,7 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "cross-env SKIP_PREFLIGHT_CHECK=true react-scripts start",
+    "start": "PORT=8000 cross-env SKIP_PREFLIGHT_CHECK=true react-scripts start",
     "build": "cross-env SKIP_PREFLIGHT_CHECK=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
